@@ -4,7 +4,7 @@ Status: file sizes read from the hosts' own listings. Whisper sizes re-read 2026
 
 ## Sizes
 Units: MB means 10^6 bytes; MiB means 2^20 bytes. Byte counts are the primary figure.
-The repo's code defaults are `--model base` for the voice demo, `yolov8n-pose.pt` for the Python counter, and `onnx-community/whisper-tiny` with `device: 'wasm'` in the browser demo (https://github.com/irvan-putra/edge-ai-multimodal-demos).
+The repo's code defaults are `--model base` for the voice demo, `yolov8n-pose.pt` for the Python counter, and `onnx-community/whisper-tiny` with `device: 'wasm'` in the browser demo (https://github.com/irvan-putra/naga).
 | Model | Configured for (in the demo repo's code, 2026-11-16; not a performance test) | Size | Source |
 |---|---|---|---|
 | Whisper "base" via faster-whisper (CTranslate2 conversion) | laptop, Python | model.bin 145,217,532 bytes (145.2 MB, 138.5 MiB); all listed files 147,882,941 bytes (147.9 MB, 141.0 MiB) | https://huggingface.co/Systran/faster-whisper-base |
